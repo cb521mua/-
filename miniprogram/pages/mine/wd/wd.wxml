@@ -1,0 +1,62 @@
+<view class="user">
+ 
+  <view class="quan" style="margin:20rpx;background-color:#ffffff;box-shadow:0px 2px 4px 2px #DDDDDD;border-width: 0rpx;border-radius:15rpx;overflow:hidden;" >
+    <view style="display:flex;align-items:center;margin-left:15rpx;margin-top: 15rpx;">
+      <image bindtap="chakantouxiang" src="{{ userphoto }}" style="border-radius:50%;overflow:hidden;margin:20rpx;width:120rpx;height:auto;border-style: solid;box-shadow:0px 2px 4px 2px #DDDDDD;border-width: 0rpx;" mode="widthFix" />
+    
+      <view class="you1" style="display:flex; flex-direction:column" >
+        <text class="name" style="font-size: 120%;color:#2a2b2c;margin-left:15rpx;border-radius:10rpx;overflow:hidden;padding:6rpx" >{{username}}</text>
+        <button wx:if="{{login==false}}" class="denglu"  bindtap="getather" style="margin-bottom: 25rpx;" >
+            授权头像昵称
+        </button>
+      </view>
+    </view>
+    
+    <view class="fujia" wx:if="{{login==true}}" style="display: flex;justify-content: space-around; ">
+      <navigator class="fj" url="../../plate3/plate3?canshu=fabude" >
+        <image src="/images/icon/wz.png" mode="widthFix" style="width:45rpx;height:auto" ></image>
+        <view class="tt">动态</view>
+      </navigator>
+      <navigator class="fj" url="../../plate3/plate3?canshu=pinglunde" >
+        <image src="/images/icon/pl.png" mode="widthFix" style="width:45rpx;height:auto" ></image>
+        <view class="tt">评论</view>
+      </navigator>
+      <navigator class="fj" url="../../news/news" style="position:relative">
+        <image src="/images/icon/xx.png" mode="widthFix" style="width:45rpx;height:auto" ></image>
+        <view class="tt">消息</view>
+        <view class="wdlist-nr" style="position:absolute;top:0rpx;right:10rpx;pointer-events: none;padding:2rpx;border-radius:50%;overflow:hidden;width: 40rpx;height: 40rpx;background-color: rgb(238, 41, 81);display: flex;justify-content: center;color: rgb(255, 255, 255);" wx:if="{{messagenumber!=0}}">{{messagenumber}}</view>
+      </navigator>
+    </view>
+  </view>
+
+  <view wx:if="{{login==true}}" class="wd-list"  >
+    <navigator url="../set/set" >
+      <view class="wdlist">
+        <view class="zuo">
+          <image src="/images/icon/alter.png" mode="widthFix" style="width:55rpx;height:auto;margin:0rpx 15rpx" ></image>
+          <view class="wdlist-nr">修改信息</view>
+        </view>
+        <image class="you" src="/images/icon/you.png" mode="widthFix" style="width:45rpx;margin-right:25rpx;height:auto" ></image>
+      </view>
+    </navigator>
+    <navigator url="../about/about" >
+      <view class="wdlist">
+        <view class="zuo">
+          <image src="/images/icon/about.png" mode="widthFix" style="width:55rpx;height:auto;margin:0rpx 15rpx" ></image>
+          <view class="wdlist-nr">关于小程序</view>
+        </view>
+        <image class="you" src="/images/icon/you.png" mode="widthFix" style="width:45rpx;margin-right:25rpx;height:auto" ></image>
+      </view>
+    </navigator>
+</view>
+  
+  <view class="wd-list" hidden="{{!adload}}" >
+    <ad unit-id="adunit-2b938ac18b8d9074" binderror="adError"></ad>
+  </view>
+
+ <!-- 广告招租 -->
+  <view class="guanggao" style="text-align: center;">
+        <image src="https://636c-cloud1-1gtn3g544c417fd6-1311218075.tcb.qcloud.la/system_img/guanggao.png?sign=6e0b82696522a2f89cd0d00fd1b9fa4f&t=1650632596">
+  </image>
+ </view>
+</view>

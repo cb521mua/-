@@ -1,0 +1,28 @@
+<!--pages/test/test--> 
+<view class="picture" style="height:290rpx;background-color: #ffffff;" >
+        <image src="https://636c-cloud1-1gtn3g544c417fd6-1311218075.tcb.qcloud.la/system_img/index3.jpg?sign=bb0e7a084ec9bd95a15b65f0cbee749b&t=1650652081" mode="aspectFill" style="width:100%;height:270rpx;border-radius:20rpx;overflow:hidden;" ></image>
+</view>
+    <view class="content">
+<view class="xyx">
+<view class="bgc bgc1" style="background-image: url('https://636c-cloud1-1gtn3g544c417fd6-1311218075.tcb.qcloud.la/system_img/MBTI.jpg?sign=74b1c90c9893fd927d4ba2af420aad4a&t=1650655158');">
+<navigator class='xyx01' target="miniProgram" open-type='navigate' 
+    app-id='wx4e7ace5efc03a208' path='pages/guide/guide?testUuid=1&recommender=ozqw75BvH1xqqpVDexjI5P9ewqL0'>MBTI人格类型量表</navigator>
+</view>
+<view class="bgc bgc2" style="background-image: url('https://636c-cloud1-1gtn3g544c417fd6-1311218075.tcb.qcloud.la/system_img/%E9%9C%8D%E5%85%B0%E5%BE%B7.jpg?sign=214fa1489bb8c115b7947656e8ac5ec3&t=1650655125');">
+<navigator class='xyx02' target="miniProgram" open-type='navigate' 
+    app-id='wx4e7ace5efc03a208' path='pages/guide/guide?testUuid=3'>霍兰德职业兴趣测试</navigator>
+</view>
+<view class="bgc bgc4" style="background-image: url('https://636c-cloud1-1gtn3g544c417fd6-1311218075.tcb.qcloud.la/system_img/DISC.jpg?sign=8e14e30298e9bfebd046352ba51a6ae4&t=1650655171');">
+<navigator class='xyx04' target="miniProgram" open-type='navigate' 
+    app-id='wx4e7ace5efc03a208' path='pages/guide/guide?testUuid=5'>DISC性格测试</navigator>
+</view>
+<view class="bgc bgc5" style="background-image: url('https://636c-cloud1-1gtn3g544c417fd6-1311218075.tcb.qcloud.la/system_img/%E4%B9%9D%E5%9E%8B.jpg?sign=74fa09ee957070648203d9d2e3a98fd0&t=1650655186');">
+<navigator class='xyx05' target="miniProgram" open-type='navigate' 
+    app-id='wx4e7ace5efc03a208' path='pages/guide/guide?testUuid=11'>九型人格/Enneagram</navigator>
+</view>
+<view class="bgc bgc6" style="background-image: url('https://636c-cloud1-1gtn3g544c417fd6-1311218075.tcb.qcloud.la/system_img/pdp.jpg?sign=1ee6052133b6a40e40abe679f462d762&t=1650655143');">
+<navigator class='xyx06' target="miniProgram" open-type='navigate' 
+    app-id='wx4e7ace5efc03a208' path='pages/guide/guide?testUuid=7'>PDP行为风格测试</navigator>
+</view>
+</view>
+</view>

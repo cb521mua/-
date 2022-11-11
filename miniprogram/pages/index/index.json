@@ -1,4 +1,11 @@
 {
-  "usingComponents": {},
-  "navigationBarTitleText": "聊大社区"
+  "usingComponents": {
+    "Tabs":"../../Tabs/Tabs"
+  },
+  "navigationBarTitleText": "茄茄私语",
+  "enablePullDownRefresh":true,
+  "backgroundColor":"#DAE4E6",
+  "backgroundTextStyle":"dark",
+  "onReachBottomDistance":900
+
 }

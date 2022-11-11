@@ -1,0 +1,74 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/tuijian/tuijian",
+          "pathName": "pages/tuijian/tuijian",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/post/post",
+          "pathName": "pages/post/post",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/tuijian/tuijian",
+          "pathName": "pages/tuijian/tuijian",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/tuijian/detail/detail",
+          "pathName": "pages/tuijian/detail/detail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/message/xiaoxi/xiaoxi",
+          "pathName": "pages/message/xiaoxi/xiaoxi",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "留言板",
+          "pathName": "pages/plate2/plate2",
+          "query": "id=20210316gao&fenxiang=true&liuyan=true",
+          "scene": null
+        },
+        {
+          "name": "管理后台",
+          "pathName": "pages/admin/admin",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "请假1",
+          "pathName": "pages/yl1/yl1",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/LCU/LCU",
+          "query": "",
+          "scene": null,
+          "launchMode": "default"
+        }
+      ]
+    }
+  }
+}

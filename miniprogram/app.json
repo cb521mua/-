@@ -1,67 +1,60 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/my/wd/wd",
-    "pages/plate/jiaoyou/jiaoyou",
-    "pages/plate/jianzhi/jianzhi",
-    "pages/plate/huzhu/huzhu",
-    "pages/plate/jiaoyi/jiaoyi",
-    "pages/plate/xiantan/xiantzn",
-    "pages/plate/peiwan/peiwan",
-    "pages/index/guanggaoxiangqing/guanggaoxiangqing",
-    "pages/index/gonggaoxiangqing/gonggaoxiangqing",
-    "pages/message/xiaoxi/xiaoxi",
+    "pages/mine/wd/wd",
     "pages/post/post",
-    "pages/tuijian/tuijian",
-    "pages/my/wd-bianjixinxi/wd-bianjixinxi",
-    "pages/my/wd-fabudeneirong/wd-fabudeneirong",
-    "pages/my/wd-fankui/wd-fankui",
-    "pages/my/wd-bianjixinxi/bianjiusername/bianjiusername",
-    "pages/my/wd-bianjixinxi/bianjitouxiang/bianjitouxiang"
+    "pages/rest/rest",
+    "pages/plate1/plate1",
+    "pages/plate2/plate2",
+    "pages/plate3/plate3",
+    "pages/news/news",
+    "pages/mine/about/about",
+    "pages/test/test",
+    "pages/mine/set/set"
   ],
   "window": {
-    "backgroundColor": "#000000",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor":"#175167",
-    "navigationBarTitleText": "聊大社区",
-    "navigationBarTextStyle": "white"
+    "navigationBarBackgroundColor": "#d82b1b",
+    "navigationBarTitleText": "茄茄私语",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#eeeeee",
+    "enablePullDownRefresh": true
   },
   "tabBar": {
-    "color": "#B0B2BF",
-    "selectedColor": "#000000",
+    "color": "#A9B7B7",
+    "selectedColor": "#FF513D",
+    "borderStyle": "white",
+    "position": "bottom",
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "主页",
-        "iconPath": "images/tabBar/主页灰.png",
-        "selectedIconPath": "images/tabBar/主页彩.png"
+        "text": "私语",
+        "iconPath": "images/tabBar/whisper0.png",
+        "selectedIconPath": "images/tabBar/whisper1.png"
       },
       {
-        "pagePath": "pages/tuijian/tuijian",
-        "text": "推荐",
-        "iconPath": "images/tuijian/推荐灰.png",
-        "selectedIconPath": "images/tuijian/推荐彩.png"
+        "pagePath": "pages/rest/rest",
+        "text": "驿站",
+        "iconPath": "images/tabBar/rest0.png",
+        "selectedIconPath": "images/tabBar/rest1.png"
       },
       {
-        "pagePath": "pages/post/post",
-        "text": "发布",
-        "iconPath": "images/post/add灰.png",
-        "selectedIconPath": "images/post/add彩.png"
+        "pagePath": "pages/test/test",
+        "text": "测试",
+        "iconPath": "images/tabBar/test0.png",
+        "selectedIconPath": "images/tabBar/test1.png"
       },
       {
-        "pagePath": "pages/message/xiaoxi/xiaoxi",
-        "text": "消息",
-        "iconPath": "images/tabBar/消息灰空.png",
-        "selectedIconPath": "images/tabBar/消息彩空.png"
-      },
-      {
-        "pagePath": "pages/my/wd/wd",
+        "pagePath": "pages/mine/wd/wd",
         "text": "我的",
-        "iconPath": "images/tabBar/我的灰.png",
-        "selectedIconPath": "images/tabBar/我的彩.png"
+        "iconPath": "images/tabBar/mine0.png",
+        "selectedIconPath": "images/tabBar/mine1.png"
       }
     ]
   },
   "sitemapLocation": "sitemap.json",
   "style": "v2"
+
+  
+
 }

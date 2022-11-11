@@ -1,0 +1,25 @@
+<!--pages/post/home/home.wxml-->
+<view class="content">
+<view class="xyx">
+<view class="bgc bgc1" style="background-image: url('https://636c-cloud1-1gtn3g544c417fd6-1311218075.tcb.qcloud.la/system_img/tiao.jpg?sign=9c376506d711f74e501111742299c072&t=1650636640');">
+<navigator class='xyx01' target="miniProgram" open-type='navigate' 
+    app-id='wx7c8d593b2c3a7703' path='pages/index/index'>跳一跳</navigator>
+</view>
+<view class="bgc bgc2" style="background-image: url('https://636c-cloud1-1gtn3g544c417fd6-1311218075.tcb.qcloud.la/system_img/yanshu.jpg?sign=22bf094c482853e90286cc909544884a&t=1650636446');">
+<navigator class='xyx02' target="miniProgram" open-type='navigate' 
+    app-id='wxf87b46689fbde8fd' path='pages/index/index'>天天打地鼠</navigator>
+</view>
+<view class="bgc bgc4" style="background-image: url('https://636c-cloud1-1gtn3g544c417fd6-1311218075.tcb.qcloud.la/system_img/qiangqi.jpg?sign=ce23ffb331fc0f184067c943a7ff9ca2&t=1650636146');">
+<navigator class='xyx04' target="miniProgram" open-type='navigate' 
+    app-id='wx9e44d62c7ab75740' path='pages/index/index'>天天象棋</navigator>
+</view>
+<view class="bgc bgc5" style="background-image: url('https://636c-cloud1-1gtn3g544c417fd6-1311218075.tcb.qcloud.la/system_img/yingyue.jpg?sign=33c20f54322ba1c61351681e7e6bb0ed&t=1650636315');">
+<navigator class='xyx05' target="miniProgram" open-type='navigate' 
+    app-id='wx32431e4d2e38cc7b' path='pages/index/index'>音乐</navigator>
+</view>
+<view class="bgc bgc6" style="background-image: url('https://636c-cloud1-1gtn3g544c417fd6-1311218075.tcb.qcloud.la/system_img/tingshu.jpg?sign=95edd2941181a4d216dc2d5873e72fb4&t=1650636503');">
+<navigator class='xyx06' target="miniProgram" open-type='navigate' 
+    app-id='wxb63203ca8ecbc8fc' path='pages/index/index'>喜马拉雅</navigator>
+</view>
+</view>
+</view>

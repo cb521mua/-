@@ -1,0 +1,24 @@
+.content {
+    width: 750rpx;
+    height: 530rpx;
+    }
+   .content image {
+     width: 100%;
+   }
+   .content .xyx .bgc{
+    display: inline-block;
+    width: 100%;
+    height: 180rpx;
+    border-radius: 20rpx;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .content navigator {
+    text-align: center;
+    margin: 60rpx auto;
+    background-color: rgba(66, 134, 94, 0.007);
+    opacity: 1;
+    font-size: 50rpx;
+    font-weight: normal;
+    }

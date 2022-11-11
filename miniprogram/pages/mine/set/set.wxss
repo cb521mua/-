@@ -1,0 +1,7 @@
+page{background-color: #d82b1b;}
+.wdlist{
+  display: flex;
+  align-items: center;
+  /* height: 100rpx; */
+  flex-direction: column;
+}
